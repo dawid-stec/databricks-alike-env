@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    app:
+        build:
+            context: .
+        environment:
+            - PYSPARK_PYTHON=python3
+        working_dir: /home/app
+        volumes:
+            - ./:/home/app
+        ports:
+            - "8888:8888"
+            

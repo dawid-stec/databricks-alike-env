@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyspark="~=3.4.0"
+delta-spark="~=2.4.0"
+notebook="~=7.0.6"
+pexpect="~=4.8.0"
+
+[requires]
+python_full_version= "3.11.4"
+
+[pipenv]
+allow_prereleases = false
